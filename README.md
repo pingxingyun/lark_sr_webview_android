@@ -1,7 +1,7 @@
 # lark_sr_webview_android
 本项目演示在 android webview 中嵌入 LarkSR Web 客户端
 
-主要代码
+#主要代码
 WebSettings webSettings = webView.getSettings();
  webSettings.setJavaScriptEnabled(true);//允许运行JavaScript
 webView.loadUrl(url);             //加载外网
