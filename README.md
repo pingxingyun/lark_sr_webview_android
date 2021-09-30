@@ -2,8 +2,9 @@
 本项目演示在 android webview 中嵌入 LarkSR Web 客户端  
 
 #主要代码  
+```java  
 WebSettings webSettings = webView.getSettings();  
- webSettings.setJavaScriptEnabled(true);//允许运行JavaScript  
+webSettings.setJavaScriptEnabled(true);//允许运行JavaScript  
 webView.loadUrl(url);             //加载外网  
 webView.setWebViewClient(new HelloWebViewClient ());  
   //Web视图  
@@ -23,7 +24,7 @@ webView.setWebViewClient(new HelloWebViewClient ());
         }  
         return false;  
     }  
-       
+```
    需要在配置单打开 usesCleartextTraffic 选项  
    版本min22 target30  
    测试机型华为Mate20X 小米6通过  
