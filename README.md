@@ -33,7 +33,7 @@ public boolean onKeyDown(int keyCode, KeyEvent event) {
 ## 注意事项
 
 * 需要在配置单打开 `usesCleartextTraffic` 选项  
-* 版本 min22 target30  
+* 测试最低支持 Android 版本
 * 不支持网页中调用全屏，需要在 Android 代码中设置
 
 ## 兼容测试
