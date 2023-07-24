@@ -11,7 +11,6 @@ webView.loadUrl(url);
 webView.setWebViewClient(new HelloWebViewClient ());  
 
 @Override
-//Web视图  
 private class HelloWebViewClient extends WebViewClient {  
     @Override  
     public boolean shouldOverrideUrlLoading(WebView view, String url) {  
